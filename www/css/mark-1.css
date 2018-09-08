@@ -1,0 +1,42 @@
+body 
+{
+    margin:0;
+    padding:0;
+    }
+#main 
+{
+    width:1000px;
+    height:800px;
+    background:#b4b4b4;
+    margin:0 auto;
+    }
+.back 
+{
+    background:url(../img/face-back.png) no-repeat #000;
+    width:732px;
+    height:738px;
+    margin:0 134px;
+    position:absolute;
+    }
+.front 
+{
+    background:url(../img/face-front.png) no-repeat;
+    width:148px;
+    height:181px;
+    position:absolute;
+    margin-left:422px;
+    margin-top:260px;
+    transition: all 0.3s ease 0s;
+    transform:rotateX(45deg);
+    transform-origin:50% 15% 0;
+    } 
+.onoff 
+{
+    text-decoration:none;
+    position:absolute;
+    right:0;
+    bottom:0;
+    color:#fff;
+    font:20px arial,sans-serif;
+    font-weight:bold;
+    }               
